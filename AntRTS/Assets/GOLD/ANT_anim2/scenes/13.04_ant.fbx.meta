@@ -1,0 +1,1094 @@
+fileFormatVersion: 2
+guid: a90f0bfc22840984ebb0b3ce7901b48c
+timeCreated: 1523618508
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: _ChamferBox003
+    100004: _glass002
+    100006: _Hose005
+    100008: _Hose006
+    100010: _Object146
+    100012: _Object147
+    100014: _Object148
+    100016: _Object149
+    100018: _Object150
+    100020: _Object151
+    100022: _Object172
+    100024: _Object173
+    100026: _Object174
+    100028: _Object175
+    100030: _Object176
+    100032: _Object177
+    100034: _Object178
+    100036: _Object179
+    100038: _Object180
+    100040: _Object180 1
+    100042: _Object181
+    100044: _Object181 1
+    100046: _Object182
+    100048: _Object182 1
+    100050: _Object183
+    100052: _Object183 1
+    100054: _Object184
+    100056: _Object184 1
+    100058: _Object185
+    100060: _Object185 1
+    100062: _Object186
+    100064: _Object187
+    100066: _Object188
+    100068: _Object189
+    100070: _Object190
+    100072: _Object191
+    100074: _Object192
+    100076: _Object193
+    100078: _Object194
+    100080: _Object195
+    100082: _Object196
+    100084: _Object197
+    100086: _Object204
+    100088: _Object205
+    100090: _Sphere418
+    100092: _Sphere419
+    100094: _Sphere420
+    100096: _Sphere433
+    100098: _Sphere434
+    100100: _Sphere435
+    100102: _Sphere436
+    100104: _Sphere437
+    100106: _Sphere438
+    100108: _Sphere457
+    100110: _Sphere458
+    100112: _Sphere459
+    100114: _Sphere460
+    100116: _Sphere461
+    100118: _Sphere462
+    100120: _Sphere463
+    100122: _Sphere464
+    100124: _Sphere465
+    100126: _Sphere466
+    100128: _Sphere467
+    100130: _Sphere468
+    100132: _Sphere469
+    100134: _Sphere470
+    100136: _Sphere475
+    100138: _Sphere476
+    100140: _Sphere477
+    100142: _Sphere478
+    100144: _Sphere479
+    100146: _Sphere480
+    100148: _Sphere481
+    100150: _Sphere482
+    100152: _Sphere483
+    100154: _Sphere484
+    100156: _Sphere485
+    100158: _Sphere485 1
+    100160: _Sphere486
+    100162: _Sphere486 1
+    100164: _Sphere487
+    100166: _Sphere487 1
+    100168: _Sphere488
+    100170: _Sphere488 1
+    100172: _Sphere489
+    100174: _Sphere489 1
+    100176: _Sphere490
+    100178: _Sphere490 1
+    100180: _Sphere491
+    100182: _Sphere492
+    100184: _Sphere493
+    100186: _Sphere494
+    100188: _Sphere495
+    100190: _Sphere496
+    100192: _Sphere497
+    100194: _Sphere498
+    100196: _Sphere499
+    100198: _Sphere500
+    100200: _Sphere501
+    100202: _Sphere502
+    100204: _Sphere509
+    100206: _Sphere510
+    100208: _Sphere511
+    100210: _Sphere512
+    100212: _Tube122
+    100214: _Tube123
+    100216: _Tube124
+    100218: _Tube125
+    100220: _Tube126
+    100222: _Tube127
+    100224: _Tube128
+    100226: _Tube157
+    100228: _Tube158
+    100230: _Tube159
+    100232: _Tube160
+    100234: _Tube161
+    100236: _Tube162
+    100238: _Tube163
+    100240: _Tube164
+    100242: _Tube165
+    100244: _Tube166
+    100246: _Tube167
+    100248: _Tube167 1
+    100250: _Tube168
+    100252: _Tube168 1
+    100254: _Tube169
+    100256: _Tube169 1
+    100258: _Tube170
+    100260: _Tube170 1
+    100262: _Tube171
+    100264: _Tube171 1
+    100266: _Tube172
+    100268: _Tube172 1
+    100270: _Tube173
+    100272: _Tube173 1
+    100274: _Tube174
+    100276: _Tube175
+    100278: _Tube176
+    100280: _Tube177
+    100282: _Tube178
+    100284: _Tube179
+    100286: _Tube180
+    100288: _Tube181
+    100290: _Tube182
+    100292: _Tube183
+    100294: _Tube184
+    100296: _Tube185
+    100298: _Tube186
+    100300: _Tube187
+    100302: _Tube195
+    100304: _Tube196
+    100306: _Tube197
+    100308: areaLight1
+    100310: belly
+    100312: Belly_CTRL
+    100314: belly_end
+    100316: belly_GR
+    100318: bezier1
+    100320: bezier2
+    100322: BODY
+    100324: Foot1_CTRL_L
+    100326: Foot1_CTRL_R
+    100328: Foot2_CTRL_L
+    100330: Foot2_CTRL_R
+    100332: Foot3_CTRL_L
+    100334: Foot3_CTRL_R
+    100336: foot_GR_L_1
+    100338: foot_GR_L_2
+    100340: foot_GR_L_3
+    100342: foot_GR_R_1
+    100344: foot_GR_R_2
+    100346: foot_GR_R_3
+    100348: foot_L_1_01
+    100350: foot_L_1_02
+    100352: foot_L_1_03
+    100354: foot_L_1_04
+    100356: foot_L_1_05
+    100358: foot_L_2_01
+    100360: foot_L_2_02
+    100362: foot_L_2_03
+    100364: foot_L_2_04
+    100366: foot_L_2_05
+    100368: foot_L_3_01
+    100370: foot_L_3_02
+    100372: foot_L_3_03
+    100374: foot_L_3_04
+    100376: foot_L_3_05
+    100378: foot_R_1_01
+    100380: foot_R_1_02
+    100382: foot_R_1_03
+    100384: foot_R_1_04
+    100386: foot_R_1_05
+    100388: foot_R_2_01
+    100390: foot_R_2_02
+    100392: foot_R_2_03
+    100394: foot_R_2_04
+    100396: foot_R_2_05
+    100398: foot_R_3_01
+    100400: foot_R_3_02
+    100402: foot_R_3_03
+    100404: foot_R_3_04
+    100406: foot_R_3_05
+    100408: group1
+    100410: group1 1
+    100412: group10
+    100414: group11
+    100416: group12
+    100418: group13
+    100420: group15
+    100422: group16
+    100424: group17
+    100426: group18
+    100428: group19
+    100430: group2
+    100432: group2 1
+    100434: group20
+    100436: group21
+    100438: group22
+    100440: group23
+    100442: group24
+    100444: group3
+    100446: group3 1
+    100448: group4
+    100450: group4 1
+    100452: group5
+    100454: group8
+    100456: group9
+    100458: head
+    100460: Head_CTRL
+    100462: head_GR
+    100464: ikHandle1
+    100466: ikHandle2
+    100468: ikHandle3
+    100470: ikHandle4
+    100472: ikHandle5
+    100474: ikHandle6
+    100476: ikHandle7
+    100478: ikHandle8
+    100480: joint4
+    100482: Knee1_1_CTRL_L
+    100484: Knee1_1_CTRL_R
+    100486: Knee2_1_CTRL_L
+    100488: Knee2_1_CTRL_R
+    100490: Knee2_2_CTRL_L
+    100492: Knee2_2_CTRL_R
+    100494: Knee2_3_CTRL_L
+    100496: Knee2_3_CTRL_R
+    100498: MSTR_CTR
+    100500: pSphere1
+    100502: root
+    100504: Root_CTRL
+    100506: root_GR
+    100508: shoulder
+    100510: spotLight1
+    100512: spotLight2
+    100514: transform1
+    100516: waist
+    100518: Waist_CTRL
+    100520: wisker_GR_L
+    100522: wisker_GR_R
+    100524: wisker_L
+    100526: wisker_L_1
+    100528: wisker_L_2
+    100530: wisker_L_end
+    100532: wisker_R
+    100534: wisker_R_1
+    100536: wisker_R_2
+    100538: wisker_R_end
+    400000: //RootNode
+    400002: _ChamferBox003
+    400004: _glass002
+    400006: _Hose005
+    400008: _Hose006
+    400010: _Object146
+    400012: _Object147
+    400014: _Object148
+    400016: _Object149
+    400018: _Object150
+    400020: _Object151
+    400022: _Object172
+    400024: _Object173
+    400026: _Object174
+    400028: _Object175
+    400030: _Object176
+    400032: _Object177
+    400034: _Object178
+    400036: _Object179
+    400038: _Object180
+    400040: _Object180 1
+    400042: _Object181
+    400044: _Object181 1
+    400046: _Object182
+    400048: _Object182 1
+    400050: _Object183
+    400052: _Object183 1
+    400054: _Object184
+    400056: _Object184 1
+    400058: _Object185
+    400060: _Object185 1
+    400062: _Object186
+    400064: _Object187
+    400066: _Object188
+    400068: _Object189
+    400070: _Object190
+    400072: _Object191
+    400074: _Object192
+    400076: _Object193
+    400078: _Object194
+    400080: _Object195
+    400082: _Object196
+    400084: _Object197
+    400086: _Object204
+    400088: _Object205
+    400090: _Sphere418
+    400092: _Sphere419
+    400094: _Sphere420
+    400096: _Sphere433
+    400098: _Sphere434
+    400100: _Sphere435
+    400102: _Sphere436
+    400104: _Sphere437
+    400106: _Sphere438
+    400108: _Sphere457
+    400110: _Sphere458
+    400112: _Sphere459
+    400114: _Sphere460
+    400116: _Sphere461
+    400118: _Sphere462
+    400120: _Sphere463
+    400122: _Sphere464
+    400124: _Sphere465
+    400126: _Sphere466
+    400128: _Sphere467
+    400130: _Sphere468
+    400132: _Sphere469
+    400134: _Sphere470
+    400136: _Sphere475
+    400138: _Sphere476
+    400140: _Sphere477
+    400142: _Sphere478
+    400144: _Sphere479
+    400146: _Sphere480
+    400148: _Sphere481
+    400150: _Sphere482
+    400152: _Sphere483
+    400154: _Sphere484
+    400156: _Sphere485
+    400158: _Sphere485 1
+    400160: _Sphere486
+    400162: _Sphere486 1
+    400164: _Sphere487
+    400166: _Sphere487 1
+    400168: _Sphere488
+    400170: _Sphere488 1
+    400172: _Sphere489
+    400174: _Sphere489 1
+    400176: _Sphere490
+    400178: _Sphere490 1
+    400180: _Sphere491
+    400182: _Sphere492
+    400184: _Sphere493
+    400186: _Sphere494
+    400188: _Sphere495
+    400190: _Sphere496
+    400192: _Sphere497
+    400194: _Sphere498
+    400196: _Sphere499
+    400198: _Sphere500
+    400200: _Sphere501
+    400202: _Sphere502
+    400204: _Sphere509
+    400206: _Sphere510
+    400208: _Sphere511
+    400210: _Sphere512
+    400212: _Tube122
+    400214: _Tube123
+    400216: _Tube124
+    400218: _Tube125
+    400220: _Tube126
+    400222: _Tube127
+    400224: _Tube128
+    400226: _Tube157
+    400228: _Tube158
+    400230: _Tube159
+    400232: _Tube160
+    400234: _Tube161
+    400236: _Tube162
+    400238: _Tube163
+    400240: _Tube164
+    400242: _Tube165
+    400244: _Tube166
+    400246: _Tube167
+    400248: _Tube167 1
+    400250: _Tube168
+    400252: _Tube168 1
+    400254: _Tube169
+    400256: _Tube169 1
+    400258: _Tube170
+    400260: _Tube170 1
+    400262: _Tube171
+    400264: _Tube171 1
+    400266: _Tube172
+    400268: _Tube172 1
+    400270: _Tube173
+    400272: _Tube173 1
+    400274: _Tube174
+    400276: _Tube175
+    400278: _Tube176
+    400280: _Tube177
+    400282: _Tube178
+    400284: _Tube179
+    400286: _Tube180
+    400288: _Tube181
+    400290: _Tube182
+    400292: _Tube183
+    400294: _Tube184
+    400296: _Tube185
+    400298: _Tube186
+    400300: _Tube187
+    400302: _Tube195
+    400304: _Tube196
+    400306: _Tube197
+    400308: areaLight1
+    400310: belly
+    400312: Belly_CTRL
+    400314: belly_end
+    400316: belly_GR
+    400318: bezier1
+    400320: bezier2
+    400322: BODY
+    400324: Foot1_CTRL_L
+    400326: Foot1_CTRL_R
+    400328: Foot2_CTRL_L
+    400330: Foot2_CTRL_R
+    400332: Foot3_CTRL_L
+    400334: Foot3_CTRL_R
+    400336: foot_GR_L_1
+    400338: foot_GR_L_2
+    400340: foot_GR_L_3
+    400342: foot_GR_R_1
+    400344: foot_GR_R_2
+    400346: foot_GR_R_3
+    400348: foot_L_1_01
+    400350: foot_L_1_02
+    400352: foot_L_1_03
+    400354: foot_L_1_04
+    400356: foot_L_1_05
+    400358: foot_L_2_01
+    400360: foot_L_2_02
+    400362: foot_L_2_03
+    400364: foot_L_2_04
+    400366: foot_L_2_05
+    400368: foot_L_3_01
+    400370: foot_L_3_02
+    400372: foot_L_3_03
+    400374: foot_L_3_04
+    400376: foot_L_3_05
+    400378: foot_R_1_01
+    400380: foot_R_1_02
+    400382: foot_R_1_03
+    400384: foot_R_1_04
+    400386: foot_R_1_05
+    400388: foot_R_2_01
+    400390: foot_R_2_02
+    400392: foot_R_2_03
+    400394: foot_R_2_04
+    400396: foot_R_2_05
+    400398: foot_R_3_01
+    400400: foot_R_3_02
+    400402: foot_R_3_03
+    400404: foot_R_3_04
+    400406: foot_R_3_05
+    400408: group1
+    400410: group1 1
+    400412: group10
+    400414: group11
+    400416: group12
+    400418: group13
+    400420: group15
+    400422: group16
+    400424: group17
+    400426: group18
+    400428: group19
+    400430: group2
+    400432: group2 1
+    400434: group20
+    400436: group21
+    400438: group22
+    400440: group23
+    400442: group24
+    400444: group3
+    400446: group3 1
+    400448: group4
+    400450: group4 1
+    400452: group5
+    400454: group8
+    400456: group9
+    400458: head
+    400460: Head_CTRL
+    400462: head_GR
+    400464: ikHandle1
+    400466: ikHandle2
+    400468: ikHandle3
+    400470: ikHandle4
+    400472: ikHandle5
+    400474: ikHandle6
+    400476: ikHandle7
+    400478: ikHandle8
+    400480: joint4
+    400482: Knee1_1_CTRL_L
+    400484: Knee1_1_CTRL_R
+    400486: Knee2_1_CTRL_L
+    400488: Knee2_1_CTRL_R
+    400490: Knee2_2_CTRL_L
+    400492: Knee2_2_CTRL_R
+    400494: Knee2_3_CTRL_L
+    400496: Knee2_3_CTRL_R
+    400498: MSTR_CTR
+    400500: pSphere1
+    400502: root
+    400504: Root_CTRL
+    400506: root_GR
+    400508: shoulder
+    400510: spotLight1
+    400512: spotLight2
+    400514: transform1
+    400516: waist
+    400518: Waist_CTRL
+    400520: wisker_GR_L
+    400522: wisker_GR_R
+    400524: wisker_L
+    400526: wisker_L_1
+    400528: wisker_L_2
+    400530: wisker_L_end
+    400532: wisker_R
+    400534: wisker_R_1
+    400536: wisker_R_2
+    400538: wisker_R_end
+    2100000: ant1
+    2100002: _wire_255255261
+    2100004: _wire_255255265
+    2300000: _ChamferBox003
+    2300002: _glass002
+    2300004: _Hose005
+    2300006: _Hose006
+    2300008: _Object146
+    2300010: _Object147
+    2300012: _Object148
+    2300014: _Object149
+    2300016: _Object150
+    2300018: _Object151
+    2300020: _Object172
+    2300022: _Object173
+    2300024: _Object174
+    2300026: _Object175
+    2300028: _Object176
+    2300030: _Object177
+    2300032: _Object178
+    2300034: _Object179
+    2300036: _Object180
+    2300038: _Object180 1
+    2300040: _Object181
+    2300042: _Object181 1
+    2300044: _Object182
+    2300046: _Object182 1
+    2300048: _Object183
+    2300050: _Object183 1
+    2300052: _Object184
+    2300054: _Object184 1
+    2300056: _Object185
+    2300058: _Object185 1
+    2300060: _Object186
+    2300062: _Object187
+    2300064: _Object188
+    2300066: _Object189
+    2300068: _Object190
+    2300070: _Object191
+    2300072: _Object192
+    2300074: _Object193
+    2300076: _Object194
+    2300078: _Object195
+    2300080: _Object196
+    2300082: _Object197
+    2300084: _Object204
+    2300086: _Object205
+    2300088: _Sphere418
+    2300090: _Sphere419
+    2300092: _Sphere420
+    2300094: _Sphere433
+    2300096: _Sphere434
+    2300098: _Sphere435
+    2300100: _Sphere436
+    2300102: _Sphere437
+    2300104: _Sphere438
+    2300106: _Sphere457
+    2300108: _Sphere458
+    2300110: _Sphere459
+    2300112: _Sphere460
+    2300114: _Sphere461
+    2300116: _Sphere462
+    2300118: _Sphere463
+    2300120: _Sphere464
+    2300122: _Sphere465
+    2300124: _Sphere466
+    2300126: _Sphere467
+    2300128: _Sphere468
+    2300130: _Sphere469
+    2300132: _Sphere470
+    2300134: _Sphere475
+    2300136: _Sphere476
+    2300138: _Sphere477
+    2300140: _Sphere478
+    2300142: _Sphere479
+    2300144: _Sphere480
+    2300146: _Sphere481
+    2300148: _Sphere482
+    2300150: _Sphere483
+    2300152: _Sphere484
+    2300154: _Sphere485
+    2300156: _Sphere485 1
+    2300158: _Sphere486
+    2300160: _Sphere486 1
+    2300162: _Sphere487
+    2300164: _Sphere487 1
+    2300166: _Sphere488
+    2300168: _Sphere488 1
+    2300170: _Sphere489
+    2300172: _Sphere489 1
+    2300174: _Sphere490
+    2300176: _Sphere490 1
+    2300178: _Sphere491
+    2300180: _Sphere492
+    2300182: _Sphere493
+    2300184: _Sphere494
+    2300186: _Sphere495
+    2300188: _Sphere496
+    2300190: _Sphere497
+    2300192: _Sphere498
+    2300194: _Sphere499
+    2300196: _Sphere500
+    2300198: _Sphere501
+    2300200: _Sphere502
+    2300202: _Sphere509
+    2300204: _Sphere510
+    2300206: _Sphere511
+    2300208: _Sphere512
+    2300210: _Tube122
+    2300212: _Tube123
+    2300214: _Tube124
+    2300216: _Tube125
+    2300218: _Tube126
+    2300220: _Tube127
+    2300222: _Tube128
+    2300224: _Tube157
+    2300226: _Tube158
+    2300228: _Tube159
+    2300230: _Tube160
+    2300232: _Tube161
+    2300234: _Tube162
+    2300236: _Tube163
+    2300238: _Tube164
+    2300240: _Tube165
+    2300242: _Tube166
+    2300244: _Tube167
+    2300246: _Tube167 1
+    2300248: _Tube168
+    2300250: _Tube168 1
+    2300252: _Tube169
+    2300254: _Tube169 1
+    2300256: _Tube170
+    2300258: _Tube170 1
+    2300260: _Tube171
+    2300262: _Tube171 1
+    2300264: _Tube172
+    2300266: _Tube172 1
+    2300268: _Tube173
+    2300270: _Tube173 1
+    2300272: _Tube174
+    2300274: _Tube175
+    2300276: _Tube176
+    2300278: _Tube177
+    2300280: _Tube178
+    2300282: _Tube179
+    2300284: _Tube180
+    2300286: _Tube181
+    2300288: _Tube182
+    2300290: _Tube183
+    2300292: _Tube184
+    2300294: _Tube185
+    2300296: _Tube186
+    2300298: _Tube187
+    2300300: _Tube195
+    2300302: _Tube196
+    2300304: _Tube197
+    2300306: pSphere1
+    3300000: _ChamferBox003
+    3300002: _glass002
+    3300004: _Hose005
+    3300006: _Hose006
+    3300008: _Object146
+    3300010: _Object147
+    3300012: _Object148
+    3300014: _Object149
+    3300016: _Object150
+    3300018: _Object151
+    3300020: _Object172
+    3300022: _Object173
+    3300024: _Object174
+    3300026: _Object175
+    3300028: _Object176
+    3300030: _Object177
+    3300032: _Object178
+    3300034: _Object179
+    3300036: _Object180
+    3300038: _Object180 1
+    3300040: _Object181
+    3300042: _Object181 1
+    3300044: _Object182
+    3300046: _Object182 1
+    3300048: _Object183
+    3300050: _Object183 1
+    3300052: _Object184
+    3300054: _Object184 1
+    3300056: _Object185
+    3300058: _Object185 1
+    3300060: _Object186
+    3300062: _Object187
+    3300064: _Object188
+    3300066: _Object189
+    3300068: _Object190
+    3300070: _Object191
+    3300072: _Object192
+    3300074: _Object193
+    3300076: _Object194
+    3300078: _Object195
+    3300080: _Object196
+    3300082: _Object197
+    3300084: _Object204
+    3300086: _Object205
+    3300088: _Sphere418
+    3300090: _Sphere419
+    3300092: _Sphere420
+    3300094: _Sphere433
+    3300096: _Sphere434
+    3300098: _Sphere435
+    3300100: _Sphere436
+    3300102: _Sphere437
+    3300104: _Sphere438
+    3300106: _Sphere457
+    3300108: _Sphere458
+    3300110: _Sphere459
+    3300112: _Sphere460
+    3300114: _Sphere461
+    3300116: _Sphere462
+    3300118: _Sphere463
+    3300120: _Sphere464
+    3300122: _Sphere465
+    3300124: _Sphere466
+    3300126: _Sphere467
+    3300128: _Sphere468
+    3300130: _Sphere469
+    3300132: _Sphere470
+    3300134: _Sphere475
+    3300136: _Sphere476
+    3300138: _Sphere477
+    3300140: _Sphere478
+    3300142: _Sphere479
+    3300144: _Sphere480
+    3300146: _Sphere481
+    3300148: _Sphere482
+    3300150: _Sphere483
+    3300152: _Sphere484
+    3300154: _Sphere485
+    3300156: _Sphere485 1
+    3300158: _Sphere486
+    3300160: _Sphere486 1
+    3300162: _Sphere487
+    3300164: _Sphere487 1
+    3300166: _Sphere488
+    3300168: _Sphere488 1
+    3300170: _Sphere489
+    3300172: _Sphere489 1
+    3300174: _Sphere490
+    3300176: _Sphere490 1
+    3300178: _Sphere491
+    3300180: _Sphere492
+    3300182: _Sphere493
+    3300184: _Sphere494
+    3300186: _Sphere495
+    3300188: _Sphere496
+    3300190: _Sphere497
+    3300192: _Sphere498
+    3300194: _Sphere499
+    3300196: _Sphere500
+    3300198: _Sphere501
+    3300200: _Sphere502
+    3300202: _Sphere509
+    3300204: _Sphere510
+    3300206: _Sphere511
+    3300208: _Sphere512
+    3300210: _Tube122
+    3300212: _Tube123
+    3300214: _Tube124
+    3300216: _Tube125
+    3300218: _Tube126
+    3300220: _Tube127
+    3300222: _Tube128
+    3300224: _Tube157
+    3300226: _Tube158
+    3300228: _Tube159
+    3300230: _Tube160
+    3300232: _Tube161
+    3300234: _Tube162
+    3300236: _Tube163
+    3300238: _Tube164
+    3300240: _Tube165
+    3300242: _Tube166
+    3300244: _Tube167
+    3300246: _Tube167 1
+    3300248: _Tube168
+    3300250: _Tube168 1
+    3300252: _Tube169
+    3300254: _Tube169 1
+    3300256: _Tube170
+    3300258: _Tube170 1
+    3300260: _Tube171
+    3300262: _Tube171 1
+    3300264: _Tube172
+    3300266: _Tube172 1
+    3300268: _Tube173
+    3300270: _Tube173 1
+    3300272: _Tube174
+    3300274: _Tube175
+    3300276: _Tube176
+    3300278: _Tube177
+    3300280: _Tube178
+    3300282: _Tube179
+    3300284: _Tube180
+    3300286: _Tube181
+    3300288: _Tube182
+    3300290: _Tube183
+    3300292: _Tube184
+    3300294: _Tube185
+    3300296: _Tube186
+    3300298: _Tube187
+    3300300: _Tube195
+    3300302: _Tube196
+    3300304: _Tube197
+    3300306: pSphere1
+    4300000: _Object172
+    4300002: _Sphere476
+    4300004: _Sphere475
+    4300006: _Tube157
+    4300008: _Object173
+    4300010: _Tube158
+    4300012: _Tube159
+    4300014: _Sphere477
+    4300016: _Sphere478
+    4300018: _Sphere509
+    4300020: _Sphere512
+    4300022: _Object204
+    4300024: _Sphere511
+    4300026: _Sphere510
+    4300028: _Tube195
+    4300030: _Tube196
+    4300032: _Tube197
+    4300034: _Object205
+    4300036: _Sphere458
+    4300038: _Sphere459
+    4300040: _Hose006
+    4300042: _Sphere465
+    4300044: _Sphere460
+    4300046: _Sphere468
+    4300048: _Sphere467
+    4300050: _Sphere461
+    4300052: pSphere1
+    4300054: _Sphere464
+    4300056: _Sphere469
+    4300058: _Sphere463
+    4300060: _Sphere462
+    4300062: _Sphere466
+    4300064: _Sphere420
+    4300066: _Sphere470
+    4300068: _Sphere457
+    4300070: _Sphere418
+    4300072: _glass002
+    4300074: _Sphere485
+    4300076: _Tube167
+    4300078: _Object181
+    4300080: _Tube168
+    4300082: _Object180
+    4300084: _Sphere486
+    4300086: _Tube169
+    4300088: _Object182
+    4300090: _Sphere487
+    4300092: _Tube170
+    4300094: _Sphere488
+    4300096: _Tube171
+    4300098: _Object183
+    4300100: _Sphere489
+    4300102: _Object184
+    4300104: _Tube172
+    4300106: _Object185
+    4300108: _Tube173
+    4300110: _Sphere490
+    4300112: _Tube160
+    4300114: _Sphere479
+    4300116: _Tube162
+    4300118: _Object176
+    4300120: _Tube161
+    4300122: _Object175
+    4300124: _Sphere480
+    4300126: _Sphere481
+    4300128: _Object174
+    4300130: _Tube163
+    4300132: _Object177
+    4300134: _Tube164
+    4300136: _Sphere482
+    4300138: _Sphere483
+    4300140: _Object179
+    4300142: _Object178
+    4300144: _Tube166
+    4300146: _Sphere484
+    4300148: _Tube165
+    4300150: _Tube174
+    4300152: _Sphere491
+    4300154: _Sphere492
+    4300156: _Object187
+    4300158: _Object188
+    4300160: _Tube175
+    4300162: _Tube176
+    4300164: _Object186
+    4300166: _Sphere493
+    4300168: _Tube178
+    4300170: _Sphere494
+    4300172: _Object189
+    4300174: _Tube177
+    4300176: _Sphere495
+    4300178: _Tube179
+    4300180: _Object190
+    4300182: _Object191
+    4300184: _Tube180
+    4300186: _Sphere496
+    4300188: _Sphere485
+    4300190: _Tube167
+    4300192: _Object181
+    4300194: _Tube168
+    4300196: _Object180
+    4300198: _Sphere486
+    4300200: _Tube169
+    4300202: _Object182
+    4300204: _Sphere487
+    4300206: _Tube170
+    4300208: _Sphere488
+    4300210: _Tube171
+    4300212: _Object183
+    4300214: _Sphere489
+    4300216: _Object184
+    4300218: _Tube172
+    4300220: _Object185
+    4300222: _Tube173
+    4300224: _Sphere490
+    4300226: _Sphere497
+    4300228: _Tube181
+    4300230: _Object193
+    4300232: _Tube182
+    4300234: _Object194
+    4300236: _Tube183
+    4300238: _Sphere498
+    4300240: _Sphere499
+    4300242: _Object192
+    4300244: _Sphere500
+    4300246: _Tube184
+    4300248: _Object195
+    4300250: _Tube185
+    4300252: _Sphere501
+    4300254: _Sphere502
+    4300256: _Tube187
+    4300258: _Tube186
+    4300260: _Object197
+    4300262: _Object196
+    4300264: _Sphere436
+    4300266: _Tube128
+    4300268: _Object151
+    4300270: _Tube127
+    4300272: _Object150
+    4300274: _Tube126
+    4300276: _Sphere435
+    4300278: _Object149
+    4300280: _Sphere433
+    4300282: _Tube124
+    4300284: _Tube125
+    4300286: _Sphere434
+    4300288: _Object148
+    4300290: _Sphere438
+    4300292: _Tube122
+    4300294: _Tube123
+    4300296: _Sphere437
+    4300298: _Object146
+    4300300: _Object147
+    4300302: _ChamferBox003
+    4300304: _Sphere419
+    4300306: _Hose005
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
