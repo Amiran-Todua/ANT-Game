@@ -56,7 +56,9 @@ public class IResursPicer : MonoBehaviour
     private void Start()
     {
         teamController = GetComponent<TeamController>();
-        ResursConteiner.CanPic.Add(new TeamIResursPicer() { resursPicer = this, team = teamController.Team });
+
+        Debug.LogError("FIX THIS");
+        ////ResursConteiner.CanPic.Add(new TeamIResursPicer() { resursPicer = this, team = teamController.Team });
     }
 
     private void OnDestroy()

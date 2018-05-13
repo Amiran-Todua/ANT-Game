@@ -24,18 +24,23 @@ public class InfluentsController : MonoBehaviour
             {
                 isFirst = true;
                 //Debug.LogError("УБРАТЬ КОСТЫЛЬ");
-                CepcuredController.GetChpterd(transform.position, Influents, team.Team);
+
+                Debug.LogError("FIX THIS");
+                // CepcuredController.GetChpterd(transform.position, Influents, team.Team);
             }
         }
     }
 
     public void Chpterd()
     {
-        CepcuredController.GetChpterd(transform.position, Influents, team.Team);
+        Debug.LogError("FIX THIS");
+        // CepcuredController.GetChpterd(transform.position, Influents, team.Team);
     }
     private void OnDestroy()
     {
-        CepcuredController.GetUnChpterd(transform.position, Influents, team.Team);
+
+        Debug.LogError("FIX THIS");
+        // CepcuredController.GetUnChpterd(transform.position, Influents, team.Team);
         OlInflusion.Remove(this);
 
         CepcuredController.ReChptrd();

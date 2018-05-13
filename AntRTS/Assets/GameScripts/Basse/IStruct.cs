@@ -16,7 +16,8 @@ public class IStruct : MonoBehaviour
             Reng = f.Influents;
         }
 
-        SelectObjects.Struct.Add(new StuctsElement() { obj = gameObject, team = GetComponent<TeamController>().Team, reng = Reng });
+        Debug.LogError("FIX THIS");
+        // SelectObjects.Struct.Add(new StuctsElement() { obj = gameObject, team = GetComponent<TeamController>().Team, reng = Reng });
     }
     public void OnDestroy()
     {

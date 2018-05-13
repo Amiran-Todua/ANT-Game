@@ -25,38 +25,38 @@ public class AiBaseStruct : MonoBehaviour
         if (Curenttime >= timeSpawn)
         {
             Curenttime = 0;
+            Debug.LogError("FIX THIS");
+            //float Id0 = IBaseUnit.GetUnitCountById(0, team.Team);
+            //float Id1 = IBaseUnit.GetUnitCountById(1, team.Team);
+            //float Id2 = IBaseUnit.GetUnitCountById(2, team.Team);
+            //float Count = Id0 + Id1 + Id2;
 
-            float Id0 = IBaseUnit.GetUnitCountById(0, team.Team);
-            float Id1 = IBaseUnit.GetUnitCountById(1, team.Team);
-            float Id2 = IBaseUnit.GetUnitCountById(2, team.Team);
-            float Count = Id0 + Id1 + Id2;
-
-            float resurs = ResursConteiner.CanGetOllTeamResurs("Metal", team.Team);
-            float max = MineBaseController.GetUnitCapsiti(team.Team);
+            //float resurs = ResursConteiner.CanGetOllTeamResurs("Metal", team.Team);
+            //float max = MineBaseController.GetUnitCapsiti(team.Team);
 
 
 
-            float CurentMAx = MineBaseController.GetMaxUnitCapsiti(team.Team);
-            if (Count > CurentMAx) { return; }
-            if (resurs/ Count >= ResursTooAnt)
-            {
-                if (Id0 / Count <= Id0ToCount)
-                {
-                    bildAnts.BildFromTemResurs(0);
-                    Debug.Log("BlidAnt :" + 0);
-                }
-                else if (Id1 / Count <= Id1ToCount)
-                {
-                    bildAnts.BildFromTemResurs(1);
-                    Debug.Log("BlidAnt :" + 1);
-                }
-                else if (Id2 / Count <= Id2ToCount)
-                {
-                    bildAnts.BildFromTemResurs(2);
-                    Debug.Log("BlidAnt :" + 2);
-                }
+            //float CurentMAx = MineBaseController.GetMaxUnitCapsiti(team.Team);
+            //if (Count > CurentMAx) { return; }
+            //if (resurs/ Count >= ResursTooAnt)
+            //{
+            //    if (Id0 / Count <= Id0ToCount)
+            //    {
+            //        bildAnts.BildFromTemResurs(0);
+            //        Debug.Log("BlidAnt :" + 0);
+            //    }
+            //    else if (Id1 / Count <= Id1ToCount)
+            //    {
+            //        bildAnts.BildFromTemResurs(1);
+            //        Debug.Log("BlidAnt :" + 1);
+            //    }
+            //    else if (Id2 / Count <= Id2ToCount)
+            //    {
+            //        bildAnts.BildFromTemResurs(2);
+            //        Debug.Log("BlidAnt :" + 2);
+            //    }
                
-            }
+            //}
         }
     }
 }

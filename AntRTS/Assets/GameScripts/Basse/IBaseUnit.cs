@@ -16,10 +16,12 @@ public  class IBaseUnit: MonoBehaviour
         int res = 0;
         for (int i = 0; i < Mass.Count; i++)
         {
-            if (Mass[i].team.Team == team)
-            {
-                res += 1;
-            }
+
+            Debug.LogError("FIX THIS");
+            //if (Mass[i].team.Team == team)
+            //{
+            //    res += 1;
+            //}
         }
         return res;
     }
@@ -28,10 +30,11 @@ public  class IBaseUnit: MonoBehaviour
         int res = 0;
         for (int i = 0; i < Mass.Count; i++)
         {
-            if (Mass[i].Id == id&& Mass[i].team.Team == team)
-            {
-                res += 1;
-            }
+            Debug.LogError("FIX THIS");
+            //if (Mass[i].Id == id&& Mass[i].team.Team == team)
+            //{
+            //    res += 1;
+            //}
         }
         return res ;
     }
@@ -48,7 +51,9 @@ public  class IBaseUnit: MonoBehaviour
 
     public int GetTeam()
     {
-        return team.Team;
+        Debug.LogError("FIX THIS");
+        //return team.Team;
+        return 0;
     }
 
     public void GoToBase()

@@ -75,33 +75,34 @@ public class AiBotResursePicer : AiPrioritiAbstract
         {
             for (int i = 0; i < ResursConteiner.Resurs.Count; i++)
             {
+                Debug.LogError("FIX THIS");
                 // Debug.Log("Checed:" + SelectObjects.enames[i].team);
-                if (Resurs.Contains(ResursConteiner.Resurs[i].Resurs))
-                {
-                    //Debug.Log("Compleat");
-                    if ((transform.position - ResursConteiner.Resurs[i].transform.position).sqrMagnitude <= RangResursPic * RangResursPic)
-                    {
-                        if (ResursFull.Contains(ResursConteiner.Resurs[i].Resurs)) { return; }
-                        if (InvokeTryeSatrtAi())
-                        {
-                            InvokeStartAiEvent();
-                            //
-                            var f = ResursConteiner.Resurs[i].transform.position;
-                            f.y += 1;
-                            deWay.ClearWay();
-                            res = ResursConteiner.Resurs[i];
-                            CurentResurs = ResursConteiner.Resurs[i].Resurs;
-                            prevValue = resursPicer.Find(x=>x.ResurseName == CurentResurs).Value;
-                            deWay.AddPoint(f);
-                            Debug.Log("ResursPos:" + ResursConteiner.Resurs[i].transform.position);
+                //if (Resurs.Contains(ResursConteiner.Resurs[i].Resurs))
+                //{
+                //    //Debug.Log("Compleat");
+                //    if ((transform.position - ResursConteiner.Resurs[i].transform.position).sqrMagnitude <= RangResursPic * RangResursPic)
+                //    {
+                //        if (ResursFull.Contains(ResursConteiner.Resurs[i].Resurs)) { return; }
+                //        if (InvokeTryeSatrtAi())
+                //        {
+                //            InvokeStartAiEvent();
+                //            //
+                //            var f = ResursConteiner.Resurs[i].transform.position;
+                //            f.y += 1;
+                //            deWay.ClearWay();
+                //            res = ResursConteiner.Resurs[i];
+                //            CurentResurs = ResursConteiner.Resurs[i].Resurs;
+                //            prevValue = resursPicer.Find(x=>x.ResurseName == CurentResurs).Value;
+                //            deWay.AddPoint(f);
+                //            Debug.Log("ResursPos:" + ResursConteiner.Resurs[i].transform.position);
                            
-                            isGoing = true;
-                            isPiked = false;
-                            GoitTooBase = false;
-                            break;
-                        }
-                    }
-                }
+                //            isGoing = true;
+                //            isPiked = false;
+                //            GoitTooBase = false;
+                //            break;
+                //        }
+                //    }
+                //}
             }
         }
         else

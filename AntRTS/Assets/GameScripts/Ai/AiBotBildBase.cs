@@ -38,37 +38,38 @@ public class AiBotBildBase : AiPrioritiAbstract
 
                 if (!SelectObjects.CanBild(transform.position)) { return; }
                 // InvokeStartAiEvent();
-                int curent = MineBaseController.GetUnitCapsiti(team.Team);
-                int max = MineBaseController.GetMaxUnitCapsiti(team.Team);
-                int resurses = ResursConteiner.CanGetOllTeamResurs("Metal", team.Team);
-                if (max == 0)
-                {
-                    IBase.CallBase(team.Team);
-                    return;
-                }
-                if (curent / max >= BaseFromUnit&& MineBaseController .MAXunit != max)
-                {
-                    IsBildstrted = bilder.BildById(0, transform.position);
-                     Debug.Log("BaseBild" );
+                Debug.LogError("FIX THIS");
+                //int curent = MineBaseController.GetUnitCapsiti(team.Team);
+                //int max = MineBaseController.GetMaxUnitCapsiti(team.Team);
+                //int resurses = ResursConteiner.CanGetOllTeamResurs("Metal", team.Team);
+                //if (max == 0)
+                //{
+                //    IBase.CallBase(team.Team);
+                //    return;
+                //}
+                //if (curent / max >= BaseFromUnit&& MineBaseController .MAXunit != max)
+                //{
+                //    IsBildstrted = bilder.BildById(0, transform.position);
+                //     Debug.Log("BaseBild" );
 
-                }
-                else if (resurses / curent >= ResursFromUnitMax)
-                {
-                    IsBildstrted = bilder.BildById(1, transform.position);
-                    Debug.Log("BaconBild :" + IsBildstrted);
+                //}
+                //else if (resurses / curent >= ResursFromUnitMax)
+                //{
+                //    IsBildstrted = bilder.BildById(1, transform.position);
+                //    Debug.Log("BaconBild :" + IsBildstrted);
 
-                }
-                else if (resurses / curent >= ResursFromUnitMin)
-                {
-                    IsBildstrted = bilder.BildById(2, transform.position);
-                    Debug.LogError("MineBild");
+                //}
+                //else if (resurses / curent >= ResursFromUnitMin)
+                //{
+                //    IsBildstrted = bilder.BildById(2, transform.position);
+                //    Debug.LogError("MineBild");
 
-                }
+                //}
 
-                if (IsBildstrted)
-                {
-                    InvokeStartAiEvent();
-                }
+                //if (IsBildstrted)
+                //{
+                //    InvokeStartAiEvent();
+                //}
             }
         }    
         else

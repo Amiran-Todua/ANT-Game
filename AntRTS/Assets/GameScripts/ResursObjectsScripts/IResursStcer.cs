@@ -70,8 +70,10 @@ public class IResursStcer : MonoBehaviour
     private void Start()
     {
         teamController = GetComponent<TeamController>();
-        GlobalresursMass.Add(new ResursCont() { resurs = this, command = teamController.Team });
-        ResursConteiner.CanSave.Add(new TeamResursStcer() { resursStcer = this, team = teamController.Team });
+
+        Debug.LogError("FIX THIS");
+        //GlobalresursMass.Add(new ResursCont() { resurs = this, command = teamController.Team });
+        //ResursConteiner.CanSave.Add(new TeamResursStcer() { resursStcer = this, team = teamController.Team });
     }
     public int ResFromAdd(int i)
     {
@@ -87,7 +89,9 @@ public class IResursStcer : MonoBehaviour
         }
         if (ChengValue != null) { ChengValue(this, Value); }
         if (ValueOfZero != null && Value <= 0) { ValueOfZero(this); }
-        ResursConteiner.CallEvetnChengResurses(Name, teamController.Team);
+
+        Debug.LogError("FIX THIS");
+        //ResursConteiner.CallEvetnChengResurses(Name, teamController.Team);
     }
     public void AddToValue(int i)
     {
@@ -98,7 +102,9 @@ public class IResursStcer : MonoBehaviour
         }
         if (ChengValue != null) { ChengValue(this, Value); }
         if (ValueOfZero != null && Value <= 0) { ValueOfZero(this); }
-        ResursConteiner.CallEvetnChengResurses(Name, teamController.Team);
+
+        Debug.LogError("FIX THIS");
+        //  ResursConteiner.CallEvetnChengResurses(Name, teamController.Team);
 
     }
     public event Action<IResursStcer, int> ChengValue;
@@ -107,48 +113,50 @@ public class IResursStcer : MonoBehaviour
     {
         for (int i = 0; i < ResursConteiner.CanPic.Count; i++)
         {
-            if (Name == ResursConteiner.CanPic[i].resursPicer.ResurseName&& ResursConteiner.CanPic[i].team == teamController.Team)
-            {
-                if ((transform.position - ResursConteiner.CanPic[i].resursPicer.transform.position).sqrMagnitude <= RengTriger * RengTriger)
-                {
 
-                    int taekeResurs;
-                    
-                    if (!PickUpSecond)
-                    {
-                        taekeResurs = MaxValue - (Value + ResursConteiner.CanPic[i].resursPicer.Value);
-                    }
-                    else
-                    {
-                        taekeResurs = (MaxValue/2) - (Value + ResursConteiner.CanPic[i].resursPicer.Value);
-                    }
-                    if (taekeResurs >= 0)
-                    {
-                        AddToValue(ResursConteiner.CanPic[i].resursPicer.Value);
-                        ResursConteiner.CanPic[i].resursPicer.Value = 0;
-                    }
-                    else
-                    {
-                        AddToValue(ResursConteiner.CanPic[i].resursPicer.Value - taekeResurs);
-                        ResursConteiner.CanPic[i].resursPicer.Value = Math.Abs(taekeResurs);
-                    }
+            Debug.LogError("FIX THIS");
+            //if (Name == ResursConteiner.CanPic[i].resursPicer.ResurseName&& ResursConteiner.CanPic[i].team == teamController.Team)
+            //{
+            //    if ((transform.position - ResursConteiner.CanPic[i].resursPicer.transform.position).sqrMagnitude <= RengTriger * RengTriger)
+            //    {
 
-                    
+            //        int taekeResurs;
 
-                        //int ifg = Value - FullValue;
-                        //if (ifg >= 0)
-                        //{
-                        //    Value = ifg;
-                        //    ResursConteiner.CanPic[i].resursPicer.Value = FullValue;
-                        //}
-                        //else
-                        //{
-                        //    ResursConteiner.CanPic[i].resursPicer.Value = Value + ifg;
-                        //    Value = 0;
-                        //}
-                    break;
-                }
-            }
+            //        if (!PickUpSecond)
+            //        {
+            //            taekeResurs = MaxValue - (Value + ResursConteiner.CanPic[i].resursPicer.Value);
+            //        }
+            //        else
+            //        {
+            //            taekeResurs = (MaxValue/2) - (Value + ResursConteiner.CanPic[i].resursPicer.Value);
+            //        }
+            //        if (taekeResurs >= 0)
+            //        {
+            //            AddToValue(ResursConteiner.CanPic[i].resursPicer.Value);
+            //            ResursConteiner.CanPic[i].resursPicer.Value = 0;
+            //        }
+            //        else
+            //        {
+            //            AddToValue(ResursConteiner.CanPic[i].resursPicer.Value - taekeResurs);
+            //            ResursConteiner.CanPic[i].resursPicer.Value = Math.Abs(taekeResurs);
+            //        }
+
+
+
+            //            //int ifg = Value - FullValue;
+            //            //if (ifg >= 0)
+            //            //{
+            //            //    Value = ifg;
+            //            //    ResursConteiner.CanPic[i].resursPicer.Value = FullValue;
+            //            //}
+            //            //else
+            //            //{
+            //            //    ResursConteiner.CanPic[i].resursPicer.Value = Value + ifg;
+            //            //    Value = 0;
+            //            //}
+            //        break;
+            //    }
+            //}
         }
     }
 

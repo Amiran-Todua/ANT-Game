@@ -52,10 +52,11 @@ public class BildAnts:MonoBehaviour
 
         for (int i = 0; i < constucted.mass.Count; i++)
         {
-            if(ResursConteiner.CanGetOllTeamResurs(constucted.mass[i].Name, teamController.Team)< constucted.mass[i].Value)
-            {
-                return false;
-            }
+            Debug.LogError("FIX THIS");
+            //if(ResursConteiner.CanGetOllTeamResurs(constucted.mass[i].Name, teamController.Team)< constucted.mass[i].Value)
+            //{
+            //    return false;
+            //}
         }
         return true;
     }
@@ -73,10 +74,11 @@ public class BildAnts:MonoBehaviour
         if(constucted == null) { return; }
         if (CanBild(j)&& canBild)
         {
-            for (int i = 0; i < constucted.mass.Count; i++)
-            {
-                ResursConteiner.GetOllTeamResurs(constucted.mass[i].Name, teamController.Team, constucted.mass[i].Value);
-            }
+            Debug.LogError("FIX THIS");
+            //for (int i = 0; i < constucted.mass.Count; i++)
+            //{
+            //    ResursConteiner.GetOllTeamResurs(constucted.mass[i].Name, teamController.Team, constucted.mass[i].Value);
+            //}
             canBild = false;
             var gf = Instantiate(constucted.obj, transform.position + spawnPoint, Quaternion.identity);
 
@@ -90,23 +92,27 @@ public class BildAnts:MonoBehaviour
         bool cBild = true;
         for (int i = 0; i < Resp[j].mass.Count; i++)
         {
-            if (!IResursStcer.CanGetResurs(Resp[j].mass[i].Name, Resp[j].mass[i].Value, teamController.Team))
-            {
 
-                Debug.Log(" teamController.Team :" + teamController.Team);
-                cBild = false;
-                break;
-            }
+            Debug.LogError("FIX THIS");
+            //if (!IResursStcer.CanGetResurs(Resp[j].mass[i].Name, Resp[j].mass[i].Value, teamController.Team))
+            //{
+
+            //    Debug.Log(" teamController.Team :" + teamController.Team);
+            //    cBild = false;
+            //    break;
+            //}
         }
         if (canBild&& cBild)
         {
 
             Debug.Log(j);
-            for (int i = 0; i < Resp.Count; i++)
-            {
-                IResursStcer.GetResurs(Resp[j].mass[i].Name, Resp[j].mass[i].Value, teamController.Team);
-               
-            }
+
+            Debug.LogError("FIX THIS");
+            //for (int i = 0; i < Resp.Count; i++)
+            //{
+            //    IResursStcer.GetResurs(Resp[j].mass[i].Name, Resp[j].mass[i].Value, teamController.Team);
+
+            //}
             canBild = false;
             //Instantiate(Resp[j].obj, spawnPoint, Quaternion.identity);
             var gf = Instantiate(Resp[j].obj, spawnPoint, Quaternion.identity);

@@ -25,10 +25,14 @@ public class IBilder : MonoBehaviour
         //{
         //    Resp.Add(item.r);
         //}
-        team = GetComponent<TeamController>().Team;
+
+        Debug.LogError("FIX THIS");
+        // team = GetComponent<TeamController>().Team;
         Way = GetComponent<DeWay>();
-        BilderController.bilders.Add(this);
-      //  Debug.Log("Bild Team :" + team);
+
+        Debug.LogError("FIX THIS");
+        // BilderController.bilders.Add(this);
+        //  Debug.Log("Bild Team :" + team);
     }
     public bool CanBild(int j)
     {
@@ -124,7 +128,8 @@ public class IBilder : MonoBehaviour
 
     private void OnDestroy()
     {
-       
-        BilderController.bilders.Remove(this);
+
+        Debug.LogError("FIX THIS");
+       // BilderController.bilders.Remove(this);
     }
 }

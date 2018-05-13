@@ -14,14 +14,15 @@ public class BaseSelector : MonoBehaviour
         
         if (selectedBase != null)
         {
+            Debug.LogError("FIX THIS");
             //Debug.LogError("EnmyBse = " + MineBaseController.GetBaseCount(1));
-            if (IBaseUnit.GetUnitCount(selectedBase.team.Team) >= MineBaseController.GetMaxUnitCapsiti(selectedBase.team.Team))
-            {
-                //Debug.LogError("WTF!?");
-                //Debug.LogError("GetUnitsCount =" + IBaseUnit.GetUnitCount(selectedBase.team.Team));
-                //Debug.LogError("GetMaxUnitCapsiti =" + MineBaseController.GetMaxUnitCapsiti(selectedBase.team.Team));
-                return;
-            }
+            //if (IBaseUnit.GetUnitCount(selectedBase.team.Team) >= MineBaseController.GetMaxUnitCapsiti(selectedBase.team.Team))
+            //{
+            //    //Debug.LogError("WTF!?");
+            //    //Debug.LogError("GetUnitsCount =" + IBaseUnit.GetUnitCount(selectedBase.team.Team));
+            //    //Debug.LogError("GetMaxUnitCapsiti =" + MineBaseController.GetMaxUnitCapsiti(selectedBase.team.Team));
+            //    return;
+            //}
             selectedBase.Bidlants(id);
         }
     }

@@ -16,7 +16,8 @@ public class AIBotController : MonoBehaviour {
     // Use this for initialization
     void Start () {
         teamController = GetComponent<TeamController>();
-        SelectObjects.AddUnit(gameObject, teamController.Team);
+        Debug.LogError("FIX THIS");
+       // SelectObjects.AddUnit(gameObject, teamController.Team);
         foreach (var item in GetComponents< AiPrioritiAbstract>())
         {
             item.EndAiEvent += Item_EndAiEvent;

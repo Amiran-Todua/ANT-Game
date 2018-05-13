@@ -17,7 +17,8 @@ public class AntController : MonoBehaviour, IPointerClickHandler {
     void Start()
     {
         teamController = GetComponent<TeamController>();
-        SelectObjects.AddUnit(gameObject, teamController.Team);
+        Debug.LogError("FIX THIS");
+       // SelectObjects.AddUnit(gameObject, teamController.Team);
         unite = new AntUnite();
         unite.deathEvent += Unite_deathEvent;
         flag = transform.position;

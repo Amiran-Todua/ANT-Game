@@ -15,8 +15,10 @@ public class IBase : MonoBehaviour
     private void Start()
     {
         team = GetComponent<TeamController>();
-        MineBaseController.AddBase(this, team.Team);
-        
+
+        Debug.LogError("FIX THIS");
+        // MineBaseController.AddBase(this, team.Team);
+
     }
 
     private void OnDestroy()
